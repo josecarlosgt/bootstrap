@@ -4,7 +4,7 @@ The purpose of the website Laguna Brava Ecotourism is to promote the activities 
 
 This website is based on the [Grayscale](https://startbootstrap.com/theme/grayscale) and [Small business](https://startbootstrap.com/previews/small-business) templates from [Start Bootstrap](https://startbootstrap.com/).
 
-Visit the website [here](https://josecarlosgt.github.io/bootstrap/)
+Visit the website [here](https://josecarlosgt.github.io/bootstrap/).
 
 ## Features:
 
