@@ -4,7 +4,7 @@ In this laboratory practice, you will explore the Bootstrap framework by customi
 
 ## Instructions
 
-Think of a place that you have enjoyed visiting in your life. The site you chose will serve as the topic of your webpage.
+1. Think of a place that you have enjoyed visiting in your life. The site you chose will serve as the topic of your webpage.
 
 Then, think of two stories that illustrate the place you chose. These stories will serve as the content of your webpage. Although each story is different, all of them should relate to your webpage's topic, making your webpage distinct and maintaining the focus of your webpage on a single idea. Selecting and elaborating on a topic makes it easier to concretize a message on our web pages and create content aligned with the web page's main message.
 
