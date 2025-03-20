@@ -1,11 +1,68 @@
+<!-- Responsive Design with CSS Media Queries -->
 <!DOCTYPE html>
 <html>
-    
+
 <head>
     <link rel="stylesheet" href="css/style.css">
     <title>Responsive Design Example</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .rectangle {
+            padding: 1rem;
+            background-color: #5DADE2;
+            margin: 0 0 0.5rem 0;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* RESPONSIVE DESIGN */
+
+        /* Fluid images */
+        img {
+            max-width: 100%;
+        }
+
+        /* Common breakpoints for devices with different screen sizes: 
+
+        Mobile devices: screen size < 576px
+        iPads, Tablets: 576px — 768px: 
+        Small screens, laptops, and larger devices: > 768px
+
+        Reference:
+    https://www.lambdatest.com/blog/how-to-use-css-breakpoints-for-responsive-design/
+*/
+
+        .container {
+            margin-top: 0.5rem;
+
+            /* Default layout: mobile devices (screen size < 576px) */
+            column-count: 1;
+        }
+
+        /* Fluid grid with media queries */
+
+        /* iPads, Tablets: (screen sizes > 576px) */
+
+        @media (min-width: 576px) {
+            .container {
+                column-count: 2;
+            }
+        }
+
+
+        /* Laptops, desktops and larger devices: (screen sizes > 768px) */
+
+        @media (min-width: 768px) {
+            .container {
+                column-count: 4;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -15,6 +72,7 @@
             <source media="(min-width:576px)" srcset="images/header-medium.jpeg">
             <img srcset="images/header-small.jpeg" alt="Header image with waves of different colors">
         </picture>
+        <h1>Responsive Design with CSS Media Queries</h1>
     </header>
     <main class="container">
         <p class="rectangle">
