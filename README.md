@@ -6,7 +6,7 @@ In this laboratory practice, you will explore the Bootstrap framework by customi
 
 1. Think of a place that you have enjoyed visiting in your life. The site you chose will serve as the topic of your webpage.
 2. Then, think of two stories that illustrate the place you chose. These stories will serve as the content of your webpage.
-3. You will need one image (500x500) for each story and at least two additional images (500x500) about your chosen place.
+3. You will need one image (700x700) for each story and at least two additional images (500x500) about your chosen place.
 
 Although each story is different, all of them should relate to your webpage's topic, making your webpage distinct and maintaining the focus of your webpage on a single idea. Selecting and elaborating on a topic makes it easier to concretize a message on our web pages and create content aligned with the web page's main message.
 
@@ -65,7 +65,7 @@ Update the first section's Lorem ipsum placeholder text by writing one or two st
 <img ... src="http://placehold.jp/700x700.png" alt="..." /></div>
 ```
 
-> Try to obtain images of about of size 700 x 700 px. Also, all your pictures should be of the same size. Ensure that you specify the dimensions and alternative text for each image.
+> Try to obtain images of about of size 700 x 700 px. Also, all your pictures should be of the same size. Ensure that you specify the alternative text for each image.
 
 ## Task 5: Add a second story
 
@@ -82,10 +82,10 @@ This slider loads several panels but only shows one at a time:
 <div id="carousel-films" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="assets/img/placeholder.png" class="d-block w-100" alt="...">
+            <img src="http://placehold.jp/500x500.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="assets/img/placeholder.png" class="d-block w-100" alt="...">
+            <img src="http://placehold.jp/500x500.png" class="d-block w-100" alt="...">
         </div>
     </div>
 </div>
