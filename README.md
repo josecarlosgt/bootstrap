@@ -1,6 +1,6 @@
 # Customizing a Bootstrap Template
 
-In this laboratory practice, you will explore the Bootstrap framework by customizing a pre-designed template. Bootstrap is a powerful front-end toolkit that simplifies the process of building responsive web pages. By using its built-in classes and components, you can create professional-looking websites with minimal coding effort.
+In this practice, you will explore the Bootstrap framework by customizing a pre-designed template. Bootstrap is a front-end toolkit (framework) intended to simplify the process of building responsive web pages.
 
 ## Instructions
 
